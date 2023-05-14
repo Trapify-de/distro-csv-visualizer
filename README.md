@@ -30,12 +30,13 @@ To generate the `export.tsv` file:
 
 Before running the script, you need to have Python 3.6 or above installed on your machine. You also need the pandas, chardet, and plotly libraries, which can be installed via pip:
 
+`pip install pandas chardet plotly`
 
 ## Usage
 
-The script is contained in a file called `sales_analysis.py`. To run it, navigate to the directory containing the script and the `export.tsv` file, and type the following into your command line:
+The script is contained in a file called `main.py`. To run it, navigate to the directory containing the script and the `export.tsv` file, and type the following into your command line:
 
-`python sales_analysis.py`
+`python main.py`
 
 The script will read the `export.tsv` file, perform the analysis, and display the interactive plots in a new browser window.
 
